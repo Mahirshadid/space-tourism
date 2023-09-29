@@ -1,0 +1,35 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: auto;
+  background-color: transparent; /* Set the background color to transparent */
+  position: absolute; /* Add this for stacking over the content */
+  width: 100%; /* Set the navbar to full width */
+}
+
+.navbar-links {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.navbar-links_container {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+}
+
+.navbar-links_container p,
+.navbar-menu_container p {
+  color: #FFFFFF;
+  font-family: var(--bcondense);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: uppercase;
+  margin: 0rem 2rem;
+  cursor: pointer;
+}

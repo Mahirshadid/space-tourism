@@ -1,0 +1,7 @@
+.home {
+  display: flex;
+  background-image: url('../../assets/home/background-home-desktop.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
