@@ -12,11 +12,12 @@ const Navbar = () => {
         <div className="navbar">
         <div className="navbar-links">
             <div className="navbar-links_logo">
+            <div className='navbar-line'></div>
             <img src={logo} alt='logo'/>
             </div>
             <div className="navbar-links_container">
                 <p><Link to="/"><span>00</span> Home</Link></p>
-                <p><Link to="/Destination"><span>01</span> Destination</Link></p>
+                <p><Link to="/Desta"><span>01</span> Destination</Link></p>
                 <p><Link to="/Crewa"><span>02</span> Crew</Link></p>
                 <p><Link to="/Technology"><span>03</span> Technology</Link></p>
                 
@@ -30,7 +31,7 @@ const Navbar = () => {
             <div className="navbar-menu_container scale-up-center">
             <div className="navbar-menu_container-links">
                 <p><Link to="/"><span>00</span> Home</Link></p>
-                <p><Link to="/Destination"><span>01</span> Destination</Link></p>
+                <p><Link to="/Desta"><span>01</span> Destination</Link></p>
                 <p><Link to="/Crewa"><span>02</span> Crew</Link></p>
                 <p><Link to="/Technology"><span>03</span> Technology</Link></p>
             </div>

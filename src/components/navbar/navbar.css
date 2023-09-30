@@ -47,6 +47,7 @@
   align-items: center;
 }
 
+
 .navbar-links_container span {
   font-weight: 600;
   margin-right: 20px;
@@ -111,6 +112,22 @@
   border-radius: 25px;
 }
 
+.navbar-line {
+  height: 2px;
+  background-color: #ffffff1a;
+  margin-left: 80px;
+  padding-right: 20rem;
+  position: absolute;
+  z-index: 1;
+  margin-top: 25px;
+}
+
+@media screen and (max-width: 1245px) {
+  .navbar-line {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 1020px) {
   .navbar-links_container span {
     display: none;
@@ -133,4 +150,15 @@
     margin-left: auto;
   }
 
+}
+
+
+@media screen and (max-width: 350px) {
+  .navbar-links_logo {
+    display: none;
+  }
+
+  .navbar-menu_container p {
+    font-size: 15px;
+  }
 }

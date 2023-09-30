@@ -4,6 +4,7 @@ import './App.css';
 import Navbar from './components/navbar/Navbar';
 import Home from './containers/home/Home'
 import Crewa from './containers/crew/Crewa'
+import Desta from './containers/destination/Desta';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Routes>
             <Route path="/" exact element={<Home />} />
             <Route path="/Crewa" exact element={<Crewa />} />
+            <Route path="/Desta" exact element={<Desta />} />
           </Routes>
         </Router>
       </div>

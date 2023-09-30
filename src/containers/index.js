@@ -4,3 +4,4 @@ export {default as CrewC} from './crew/Crewc'
 export {default as CrewD} from './crew/Crewd'
 
 export {default as Home} from './home/Home'
+export {default as Desta} from './destination/Desta'

@@ -1,7 +1,150 @@
 .home {
   display: flex;
+  flex-direction: row;
   background-image: url('../../assets/home/background-home-desktop.jpg');
   background-size: cover;
   background-position: center;
   min-height: 100vh;
+}
+
+
+.home-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  width: 50%;
+
+  letter-spacing: 3px;
+}
+
+.home-text h3, 
+.home-text p {
+  color: var(--exp-text);
+  margin: 5px;
+}
+
+.home-text h1 {
+  color: var(--big-text);
+}
+
+.home-text h3 {
+  font-family: var(--bcondense);
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 26px;
+
+  margin-bottom: 25px;
+}
+
+.home-text p {
+  font-family: var(--barlow);
+  font-weight: 400;
+  font-size: 18px;
+
+  letter-spacing: 1.5px;
+
+  margin-top: 35px;
+
+  width: 80%;
+}
+
+.home-text h1 {
+  font-family: var(--belle);
+  text-transform: uppercase;
+  font-size: 135px;
+}
+
+.home-circle {
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+  margin-left: auto;
+
+
+  justify-content: center;
+  text-align: center;
+  text-transform: uppercase;
+
+  height: 15rem;
+  width: 15rem;
+
+  border-radius: 150px;
+
+  background-color: #FFFFFF;
+
+  font-family: var(--barlow);
+  font-weight: 400;
+
+  color: #0b0d17ab;
+  
+}
+
+@media screen and (max-width: 750px) {
+  .home {
+    flex-direction: column;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .home-text {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+  }
+
+  .home-circle {
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding: 0;
+  }
+
+}
+
+@media screen and (max-width: 450px) {
+  
+  .home-text h1 {
+    font-size: 70px;
+  }
+
+  .home-text h3 {
+    font-size: 20px;
+  }
+
+  .home-text p {
+    font-size: 15px;
+  }
+
+  .home-circle {
+    height: 10rem;
+    width: 10rem;
+
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .home-text h1 {
+    font-size: 40px;
+  }
+
+  .home-text h3 {
+    font-size: 14px;
+  }
+
+  .home-text p {
+    font-size: 12px;
+  }
+
+  .home-circle {
+    height: 10rem;
+    width: 10rem;
+
+    font-size: 13px;
+  }
 }

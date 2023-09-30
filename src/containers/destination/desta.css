@@ -1,0 +1,8 @@
+.desta {
+    display: flex;
+    flex-direction: row;
+    background-image: url('../../assets/destination/background-destination-desktop.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
