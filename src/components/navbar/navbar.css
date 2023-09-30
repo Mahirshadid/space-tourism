@@ -1,11 +1,12 @@
 .navbar {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
   height: auto;
-  background-color: transparent; /* Set the background color to transparent */
-  position: absolute; /* Add this for stacking over the content */
-  width: 100%; /* Set the navbar to full width */
+  background-color: transparent;
+  position: absolute;
+  width: 100%;
 }
 
 .navbar-links {
@@ -16,20 +17,120 @@
 }
 
 .navbar-links_container {
-  background-color: transparent;
   display: flex;
   flex-direction: row;
-  margin-left: auto;
+  padding: 2.5rem 1rem;
+  padding-right: 5rem;
+  width: 80%;
+  align-items: center;
+  justify-content: flex-end;
+  border-radius: 20px;
+  margin-top: 40px;
+
+  backdrop-filter: blur(15px); 
+  background-color: #ffffff0a;
 }
 
 .navbar-links_container p,
 .navbar-menu_container p {
   color: #FFFFFF;
   font-family: var(--bcondense);
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 22px;
+  font-size: 20px;
+  line-height: 15px;
   text-transform: uppercase;
-  margin: 0rem 2rem;
+  margin: 0rem 1rem;
   cursor: pointer;
+
+  letter-spacing: 4px;
+
+  display: flex;
+  align-items: center;
+}
+
+.navbar-links_container span {
+  font-weight: 600;
+  margin-right: 20px;
+}
+
+.navbar-links_logo {
+  margin: 10px;
+  Padding: 30px 30px 0px 30px;
+  margin-right: auto;
+}
+
+.navbar-menu {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  display: none;
+  position: relative;
+}
+
+.navbar-menu svg {
+  margin-top: 25px;
+  cursor: pointer;
+  fill: #FFFFFF;
+}
+
+.navbar-menu svg:hover {
+  box-shadow: 2px 2px 10px 10px #ffffff2b;
+  background-color: #ffffff23;
+}
+
+.navbar-menu_container {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  text-align: right;
+  
+  backdrop-filter: blur(15px); 
+  background-color: #ffffff0a;
+
+  width: max-content;
+  padding: 2rem;
+  position: absolute;
+  right: 0;
+  top: 50px;
+  margin-top: 1rem;
+  border-radius: 10px;
+}
+
+.navbar-menu_container p {
+  margin: 1.5rem 0;
+}
+
+.navbar-menu_container span {
+  font-weight: 600;
+  margin-right: auto;
+  padding-right: 2rem;
+}
+
+.navbar-links_container p:hover,
+.navbar-menu_container p:hover {
+  box-shadow: 2px 2px 10px 10px #ffffff2b;
+  background-color: #ffffff23;
+  border-radius: 25px;
+}
+
+@media screen and (max-width: 1020px) {
+  .navbar-links_container span {
+    display: none;
+  }
+
+  .navbar-links_container {
+    padding-right: 0rem;
+  }
+
+}
+
+@media screen and (max-width: 650px) {
+
+  .navbar-links_container {
+    display: none;
+  }
+
+  .navbar-menu {
+    display: flex;
+    margin-left: auto;
+  }
+
 }
