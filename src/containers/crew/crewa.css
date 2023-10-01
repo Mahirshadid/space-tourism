@@ -1,0 +1,161 @@
+.crewa {
+    display: flex;
+    flex-direction: column;
+    background-image: url('../../assets/destination/background-destination-desktop.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.crewa-fixed-contents {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    font-family: var(--bcondense);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+    padding: 2rem 0rem;
+}
+
+.crewa-fixed-contents h3 {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.crewa-fixed-contents p a {
+    font-size: 20px;
+    font-weight: 400;
+    margin-right: 20px;
+    text-decoration: none;
+}
+  
+.crewa-fixed-contents p a.active {
+    box-shadow: 2px 2px 10px 10px #ffffff2b;
+    background-color: #ffffff23;
+}
+  
+.crewa-fixed-contents p a:hover {
+    box-shadow: 2px 2px 10px 10px #ffffff2b;
+    background-color: #ffffff23;
+}
+
+
+.crewa-fixed-contents span {
+    color: #ffffff89;
+    margin-right: 20px;
+}
+
+.crewa-links_container {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.crewa-douglas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: start;
+
+    color: #FFFFFF;
+
+    height: fit-content;
+}
+
+.textc {
+    width: 50%;
+    height: 50%;
+}
+
+.textc h1 {
+    font-family: var(--belle);
+    text-transform: uppercase;
+    font-size: 60px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.textc h2 {
+    font-size: 25px;
+    font-family: var(--belle);
+    font-weight: 400;
+    color: #ffffff8a;
+    text-transform: uppercase;
+    margin-top: 15%;
+}
+
+.textc p {
+    font-size: 15px;
+    font-family: var(--barlow);
+    color: var(--exp-text);
+    line-height: 20px;
+    letter-spacing: 2px;
+}
+
+.crewa-mark {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: start;
+
+    color: #FFFFFF;
+
+    height: fit-content;
+}
+
+.crewa-victor {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: start;
+
+    color: #FFFFFF;
+
+    height: fit-content;
+}
+
+.crewa-ansari {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: start;
+
+    color: #FFFFFF;
+
+    height: fit-content;
+}
+
+.crewa-douglas,
+.crewa-mark,
+.crewa-victor,
+.crewa-ansari {
+    display: none;
+}
+
+.crewa-douglas.active,
+.crewa-mark.active,
+.crewa-victor.active,
+.crewa-ansari.active {
+    display: flex;
+}
+
+.crewa-abs-contents img {
+    position: absolute;
+    right: 0;
+    margin-right: 10%;
+    width: 30%;
+    margin-top: 10%;
+}
+
