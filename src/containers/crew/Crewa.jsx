@@ -5,7 +5,6 @@ import markimg from '../../assets/crew/image-mark-shuttleworth.png'
 import victorimg from '../../assets/crew/image-victor-glover.png'
 import ansariimg from '../../assets/crew/image-anousheh-ansari.png'
 
-
 const Crewa = () => {
 
   const [selectedPlanet, setSelectedPlanet] = useState('douglas');
@@ -103,7 +102,6 @@ const Crewa = () => {
               </div>
               <img src={ansariimg} alt='' />
             </div>
-
         </div>
     </div>
   )

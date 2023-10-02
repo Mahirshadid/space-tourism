@@ -1,0 +1,25 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    background-color: #0a071a00;
+    background: url('../../assets/technology/background-technology-desktop.jpg');
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+
+.footer p {
+    font-family: var(--belle);
+    color: #ffffff62;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.footer a {
+    font-family: var(--belle);
+    color: var(--exp-text);
+    font-weight: 400;
+}

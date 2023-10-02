@@ -19,7 +19,7 @@ const Navbar = () => {
                 <p><Link to="/"><span>00</span> Home</Link></p>
                 <p><Link to="/Desta"><span>01</span> Destination</Link></p>
                 <p><Link to="/Crewa"><span>02</span> Crew</Link></p>
-                <p><Link to="/Technology"><span>03</span> Technology</Link></p>
+                <p><Link to="/Tech"><span>03</span> Technology</Link></p>
                 
             </div>
         </div>
@@ -33,7 +33,7 @@ const Navbar = () => {
                 <p><Link to="/"><span>00</span> Home</Link></p>
                 <p><Link to="/Desta"><span>01</span> Destination</Link></p>
                 <p><Link to="/Crewa"><span>02</span> Crew</Link></p>
-                <p><Link to="/Technology"><span>03</span> Technology</Link></p>
+                <p><Link to="/Tech"><span>03</span> Technology</Link></p>
             </div>
             </div>
             )}
